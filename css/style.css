@@ -3,15 +3,9 @@
     src: url("../fonts/coolvetica.ttf");
 }
 
-/* html {
-    box-sizing: border-box;
+html {
     font-family: sans-serif;
-} */
-
-/* body { */
-    /* max-width: 1440px; */
-    /* padding: 0 9%; */
-/* } */
+}
 
 .header1 {
     font-family: 'Coolvetica', sans-serif;
