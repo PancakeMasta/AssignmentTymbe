@@ -17,10 +17,10 @@ If anything is not acording to requirements, feel free to let me know, so I can 
 
 Page was created using VS code IDE.
 
-Used technologies:  Bootstrap v4.5.2
-                    jQuery.js
-                    popper.js
-                    font-awesome.css (for icons in the navigation bars)
+Used technologies:  Bootstrap v4.5.2,
+                    jQuery.js,
+                    popper.js,
+                    font-awesome.css (for icons in the navigation bars).
 
 Contents:   css/                - folder with .css style file,
             fonts/              - folder with offline fonts used in the website,
