@@ -22,9 +22,9 @@ Used technologies:  Bootstrap v4.5.2
                     popper.js
                     font-awesome.css (for icons in the navigation bars)
 
-Contents:   css/                - folder with .css style file
-            fonts/              - folder with offline fonts used in the website
-            img/                - image files used in the webiste
-            index.html          - HTML source code of the page
-            README.md           - this readme
-            tySkoleni_xxx.png   - screenshots of the final product, where XXX is display mode (desktop, mobile)
+Contents:   css/                - folder with .css style file,
+            fonts/              - folder with offline fonts used in the website,
+            img/                - image files used in the webiste,
+            index.html          - HTML source code of the page,
+            README.md           - this readme,
+            tySkoleni_xxx.png   - screenshots of the final product, where XXX is display mode (desktop, mobile).
