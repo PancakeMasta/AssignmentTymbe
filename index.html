@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="bgSection1 py-3">
+    <div class="bgSection1 py-3 d-flex flex-column">
         <nav class="navbar navbar-expand-xl py-3">
             <a class="navbar-brand ml-2" href="#">
                 <img src="img/tySkoleni.png"></img>
@@ -25,7 +25,7 @@
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-navicon"></span>
             </button>
-            <div class="container position-relative">
+            <div class="position-relative">
                 <div id="navbarCollapse" class="collapse navbar-collapse justify-content-center">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-3">
@@ -64,11 +64,11 @@
         </nav>
     
         <div class="section1 d-flex justify-content-between">
-            <div class="my-auto">
+            <header class="my-auto">
                     <p class="header1 introNadpis">"Ty-školení je nový online školicí systém"</p>
                     <p class="introText">Jednoduše nastav, sleduj a vyhodnocuj školení svých lidí přes mobil.</p>
                     <button class="introButton">Chci brigádníky</button>
-            </div>
+            </header>
             <div class="d-none d-xl-block mt-5 pt-5 position-relative">
                 <div id="introImg">
                     <img id="hand" src="img/hand.png"/>
@@ -79,7 +79,7 @@
         </div>
     </div>
     
-    <div class="section2 container-fluid">
+    <div class="section2 d-flex flex-column ">
         <p class="header2">Jak to funguje?</p>
         <div class="s2subsection1 d-flex align-content-center flex-wrap">
             <div class="s2sub1group mx-auto mb-4 mb-xl-0">
@@ -105,7 +105,7 @@
         </div>
     </div>
 
-    <div class="section3 container-fluid">
+    <div class="section3 d-flex flex-column">
         <p class="header2">Ty-školení doručí všechno, co od školení chceš</p>
         <div class="s3subsection1 d-flex align-content-center flex-wrap">
             <div class="s3sub3field">
@@ -176,7 +176,7 @@
         </div>
     </div>
 
-    <div class="section4 container-fluid">
+    <div class="section4 d-flex flex-column">
         <p class="header2">Ty-školení jsme stavěli pro dobu mobilní</p>
         <div class="s4subsection1 d-flex justify-content-around">
             <div class="s4subsection2">
@@ -211,15 +211,14 @@
         <img id="bgE2" src="img/bgE2.png"/>
     </div>
 
-    <div class="section5 container-fluid">
+    <div class="section5 d-flex flex-column">
         <p class="header2">Klik – a je tu vyškolený pracovník!</p>
         <div class="s5subsection1">
             <p class="text3 pt-3">Školení by mělo bavit toho, kdo školí, i toho, kdo je školen. Vyber si svůj styl a jdeme na to. Školení hrou!</p>
-            <div class="container-fluid d-flex justify-content-around">
+            <div class="d-flex justify-content-around">
                 <div class="s5subsection2 align-self-center pr-5 d-none d-xl-block">
                     <img id="okHand" src="img/okHand.png"/>
                     <img id="ellipse4" src="img/E4.png"/>
-                    <!-- obrazky -->
                 </div>
                 <div class="s5subsection3">
                     <div class="pb-3">
@@ -241,28 +240,31 @@
         <img id="bgE4" src="img/bgE4.png"/>
     </div>
 
-    <div class="section6 d-flex">
-        <div class="s6subsection1 d-flex ml-xl-6">
-            <div>
-                <p class="header4">Rádi tě zaškolíme do všech výhod Ty–školení! </p>
-                <button class="introButton mt-5">Chci vědet víc</button>
+    <div class="section6 d-flex flex-column">
+        <div class="s6subsection1">
+
+            <div class="s6subsection2 pr-xl-0 d-flex">
+                <header>
+                    <p class="header4">Rádi tě zaškolíme do všech výhod Ty–školení! </p>
+                    <button class="introButton mt-5">Chci vědet víc</button>
+                </header>
+                <img id="handSnap" class="d-none d-xl-block" src="img/handSnap.png"/>
             </div>
-            <img id="handSnap" class="d-none d-xl-block" src="img/handSnap.png"/>
+            <img id="cardE1" src="img/cardE1.png"/>
+            <img id="cardE2" src="img/cardE2.png"/>
+            <img id="cardE3" class="d-none d-xl-block" src="img/cardE3.png"/>
         </div>
-        <img id="cardE1" src="img/cardE1.png"/>
-        <img id="cardE2" src="img/cardE2.png"/>
-        <img id="cardE3" class="d-none d-xl-block" src="img/cardE3.png"/>
     </div>
 
-    <div class="footer container-fluid py-3">
-        <nav id="navbar2" class="navbar navbar-expand-lg p-3">
+    <div class="footer py-3 d-flex flex-column">
+        <nav id="navbar2" class="navbar navbar-expand-xl p-3">
             <a class="navbar-brand tymbeLogo" href="#">
                 <img src="img/tymbeLogo.png"></img>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse2" aria-expanded="false" aria-label="Toggle Navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse2" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="fa fa-navicon text-white"></span>
             </button>
-            <div class="container position-relative">
+            <div class="position-relative">
                 <div id="navbarCollapse2" class="collapse navbar-collapse justify-content-end py-xl-0 py-2">
                     <ul class="navbar-nav">
                         <li class="nav-item pl-2 pr-5">
@@ -307,7 +309,7 @@
                 <p class="text5 px-xl-2 px-1 my-2">725 762 453</p>
                 <p class="text5 px--xl-2 px-1 my-2" style="opacity: 0.7;">24 hodin denně, 7 dní v týdnu a po celé ČR.</p>
             </div>
-            <div class="container-fluid my-4">
+            <div class=" my-4">
                 <a id="googleplus" class="icon fa fa-google-plus px-2"></a>
                 <a id="facebook" class="icon fa fa-facebook-square px-2"></a>
                 <a id="instagram" class="icon fa fa-instagram px-2"></a>
